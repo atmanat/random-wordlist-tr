@@ -1,3 +1,9 @@
+### Dosya İçeriği
+
+* `randomlist.sh`: Rastgele sözcük listesi üreten betik.
+* `trlist-orig.txt`: http://tr.wiktionary.org/ toplandığı şekliyle sözcük listesi.
+* `trlist.txt`: sadece ASCII karakterlere indirgenmiş sözcük listesi.
+
 ### Örnek kullanım:
 
 `./randomlist.sh`

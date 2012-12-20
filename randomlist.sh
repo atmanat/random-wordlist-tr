@@ -13,7 +13,7 @@ outfile=$1 && shift
 
 [ -z "$file" ] && file="trlist.txt"
 [ -z "$count" ] && count=10
-[ -z "$outfile" ] && outfile=${count}-${file}
+[ -z "$outfile" ] && outfile=`dirname $file`/${count}-`basename $file`
 
 touch $outfile
 rm -v $outfile
